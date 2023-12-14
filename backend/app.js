@@ -11,6 +11,7 @@ const router = require("./routes/weather-routes")
     res.status(200).json({
         status:"successful",
         greeting: "Hello welcome to the weather app",
+        quickExample:"Try a quick weather update for your favourite city. Just add this to the url:- /weatherByName/<name of the city> ",
         route1: ` / - Default Home Route`,
         route2:`/locations - ( GET ) - to get all the location`,
         route3:`/locations - ( POST ) - to add a new location ({ name, latitude, longitude})`,
