@@ -8,7 +8,7 @@ app.use("/", router)
 
 // Default Route
 app.get("/", (req, res) => {
-    res.status(200).send(`<center> <h1>Welcome to the Fitpage APIs</h1>
+    res.status(200).send(`<h1>Welcome to the Fitpage APIs</h1>
     <div>
       <h5>Following is a list of different routes that we can use</h5>
   
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
       </ul>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/ui_VmuFj3Cg?si=pruZYiSOaNmpfBzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    </center>`)
+    `)
     // json({
     //     status: "successful",
     //     greeting: "Hello welcome to the weather app",
