@@ -22,10 +22,7 @@ app.get("/", (req, res) => {
         <li>/history/:id/:date - ( GET ) - to get history weather of a location by ID amd Date</li>
         <li> /weatherByName/:name - ( GET ) - to get weather data by simply entering name of the city as params</li>
       </ul>
-      <video width="1280" height="720" controls>
-          <source src="https://drive.google.com/file/d/1cxrR7MY3zNSiNRKTY-iwGkzcgESP9Prt/view?usp=sharing" type="video/mp4">
-          Your browser does not support the video tag.
-      </video>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ui_VmuFj3Cg?si=pruZYiSOaNmpfBzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </center>`)
     // json({
