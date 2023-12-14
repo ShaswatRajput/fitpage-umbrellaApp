@@ -8,7 +8,7 @@ app.use("/", router)
 
 // Default Route
 app.get("/", (req, res) => {
-    res.status(200).send(` <h1>Welcome to the Fitpage APIs</h1>
+    res.status(200).send(`<center> <h1>Welcome to the Fitpage APIs</h1>
     <div>
       <h5>Following is a list of different routes that we can use</h5>
   
@@ -22,11 +22,12 @@ app.get("/", (req, res) => {
         <li>/history/:id/:date - ( GET ) - to get history weather of a location by ID amd Date</li>
         <li> /weatherByName/:name - ( GET ) - to get weather data by simply entering name of the city as params</li>
       </ul>
-      <video width="640" height="360" controls>
+      <video width="1280" height="720" controls>
           <source src="https://drive.google.com/file/d/1cxrR7MY3zNSiNRKTY-iwGkzcgESP9Prt/view?usp=sharing" type="video/mp4">
           Your browser does not support the video tag.
       </video>
-    </div>`)
+    </div>
+    </center>`)
     // json({
     //     status: "successful",
     //     greeting: "Hello welcome to the weather app",
