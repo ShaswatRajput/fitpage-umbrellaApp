@@ -8,10 +8,9 @@ app.use("/", router)
 
 // Default Route
 app.get("/", (req, res) => {
-    res.status(200).send(`<h1>Welcome to the Fitpage APIs</h1>
+    res.status(200).send(`<center><h1>Welcome to the Fitpage APIs</h1></center>
     <div>
       <h5>Following is a list of different routes that we can use</h5>
-  
       <ul>
         <li> / - Default Home Route</li>
         <li> /locations - ( GET ) - to get all the location</li>
