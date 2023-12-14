@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
         <li>/history/:id/:date - ( GET ) - to get history weather of a location by ID amd Date</li>
         <li> /weatherByName/:name - ( GET ) - to get weather data by simply entering name of the city as params</li>
       </ul>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ui_VmuFj3Cg?si=pruZYiSOaNmpfBzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/ui_VmuFj3Cg?si=pruZYiSOaNmpfBzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     `)
     // json({
