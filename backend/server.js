@@ -4,13 +4,13 @@ const database = require("./config/database")
 
 //Config
 dotenv.config({
-    path:"backend/config/config.env"
+    path: "backend/config/config.env"
 })
 //Connecting to Database
 database()
 
-app.listen(process.env.PORT,(err)=>{
-    if(err){
+app.listen(process.env.PORT, (err) => {
+    if (err) {
         console.log(`We encountered an error: ${err}`)
     }
     console.log(`App is listening on PORT: ${process.env.PORT} `)
